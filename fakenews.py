@@ -16,10 +16,10 @@ if st.button("Submit"):
     clf = joblib.load("finalized_model.pkl")
     
     # input to lower
-    X = np.array(text_input).reshape(-1,1)
+    # X = np.array(text_input).reshape(-1,1)
     # st.text(X)
     # Get prediction
-    prediction = clf.predict(X)
+    prediction = clf.predict(text_input)
     
     # Output prediction
     st.text(f"This news is a {prediction}")
