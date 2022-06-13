@@ -14,7 +14,7 @@ if st.button("Submit"):
     
     # input to lower
     X = text_input.lower()   
-    st.text(X
+    st.text(X)
     # Get prediction
     # prediction = [[clf.predict(X)]]
     
