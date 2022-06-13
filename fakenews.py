@@ -19,7 +19,7 @@ if st.button("Submit"):
     # X = np.array(text_input).reshape(-1,1)
     # st.text(X)
     # Get prediction
-    prediction = clf.predict(text_input)
+    prediction = clf.predict(np.array(text_input).reshape(1,))
     
     # Output prediction
     st.text(f"This news is a {prediction}")
