@@ -1,5 +1,9 @@
 # Fake_News_Detection
 
+<br/>
+        ##             <b><a href="https://share.streamlit.io/vuppalaravali/fake_news_detection/main/fakenews.py">Streamlit Fake News App</a></b>
+
+
 INTRODUCTION:-
 Fake news detection has recently become a rising analysis that’s capturing attention. Pretend news is generated purposely to mislead readers to believe false data that makes it tough and non-trivial to discover supported content. Pretend news on social media has been occurring for many years, however, there's no united definition of the term ‘fake news’ For higher steering of the longer term directions of pretend news direction analysis, applicable classifications are necessary.<br/>
 Fake news changes the manner folks interpret and answer real news, for example, some pretend news was simply created to trigger people's distrust and build them confused; preventative their skills to differentiate what is true from what is not. To help mitigate the negative effects caused by pretend news It's crucial that we tend to build up strategies to mechanically discover pretend news.<br/>
