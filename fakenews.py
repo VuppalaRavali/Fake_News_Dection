@@ -6,6 +6,7 @@ import sklearn
 
 text_input = st.text_input("Enter the News","")
 
+text_input=text_input.lower()
 text_area_input = st.text_area("Result")
 
 if st.button("Submit"):
@@ -14,7 +15,7 @@ if st.button("Submit"):
     clf = joblib.load("finalized_model.pkl")
     
     # input to lower
-    X = [[(text_input.lower())]]   
+    X = [[text_input]]   
     # st.text(X)
     # Get prediction
     prediction = clf.predict(X)
