@@ -14,7 +14,7 @@ if st.button("Submit"):
     clf = joblib.load("finalized_model.pkl")
     
     # input to lower
-    X = [[text_input.lower()]]   
+    X = [[(text_input.lower())]]   
     # st.text(X)
     # Get prediction
     prediction = clf.predict(X)
