@@ -8,7 +8,6 @@ import sklearn
 text_input = st.text_input("Enter the News","")
 
 text_input=text_input.lower()
-text_area_input = st.text_area("Result")
 
 if st.button("Submit"):
     
