@@ -1,7 +1,7 @@
 # Fake_News_Detection
 
 <br/>
-        ##             <b><a href="https://share.streamlit.io/vuppalaravali/fake_news_detection/main/fakenews.py">Streamlit Fake News App</a></b>
+        **             <b><a href="https://share.streamlit.io/vuppalaravali/fake_news_detection/main/fakenews.py">Streamlit Fake News App</a></b>
 
 
 INTRODUCTION:-
